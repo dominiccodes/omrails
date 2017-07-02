@@ -16,6 +16,9 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
+gem 'devise'
+#gem 'bcrypt', '~> 3.1.11'
+gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
 
 group :development, :test do
   gem 'byebug', platform: :mri
